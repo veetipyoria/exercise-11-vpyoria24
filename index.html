@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harjoitus 11</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <h1 class="otsikko">Azure: Kysymyksiä ja vastauksia</h1>
 
-    <p>1. Mikä on Azure?</p>
-    <p>2. Paljonko Azure vastaa maailman pilvi-infrastruktuuripalveluista?</p>
-    <p>3. Mihin Azurea käytetään?</p>
-    <p>4. Mikä on Azure Portal?</p>
-    <p>5. Mikä on Azure App Service?</p>
+    <div id="Q&A">
+        <p>1. Mikä on Azure?</p>
+        <p class="vastaus">Microsoftin pilvipalvelu, joka tarjoaa laajat tiedostojen ja sovellusten tallennus- ja käyttömahdollisuudet.</p>
+        <p>2. Paljonko Azure vastaa maailman pilvi-infrastruktuuripalveluista?</p>
+        <p class="vastaus">Azure vastaa noin 21% maailman pilvi-infrastruktuuripalveluista.</p>
+        <p>3. Mihin Azurea käytetään?</p>
+        <p class="vastaus">Azurea käytetään esimerkiksi web-sovellusten, tietokantojen ja tekoälysovellusten kehittämiseen.</p>
+        <p>4. Mikä on Azure Portal?</p>
+        <p class="vastaus">Web-pohjainen käyttöliittymä, jossa voi hallita Azure-palveluita.</p>
+        <p>5. Mikä on Azure App Service?</p>
+        <p class="vastaus">Web-sovellusten suorituspalvelu, joka mahdollistaa sovellusten luomisen, käyttöönoton ja hallinnan.</p>
+    </div>
+    
 
-    <button>Näytä vastaukset</button>
+    <button onclick="showAnswers()">Näytä vastaukset</button>
+
+    <script src="/js/functions.js"></script>
 </body>
 </html>
